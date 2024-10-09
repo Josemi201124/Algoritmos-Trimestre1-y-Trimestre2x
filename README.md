@@ -42,3 +42,15 @@ Insertar Número en Posición en un Vector Este programa permite al usuario inse
 
 Funcionalidad: El programa primero pide al usuario que ingrese 9 números para llenar un vector de tamaño 10. Luego, el usuario ingresa un número adicional y una posición en la que desea insertar el número en el vector. El vector se ajusta automáticamente para incluir el nuevo número en la posición deseada. Los elementos posteriores se desplazan hacia la derecha para acomodar el número insertado. Variables: vector[]: Un arreglo de enteros que almacena los números ingresados por el usuario. numero_adicional: El número que el usuario desea insertar. posicion: La posición en la que el usuario desea insertar el número adicional. Ejecución: Ingreso de Datos: El usuario ingresa 9 números, los cuales se almacenan en el vector. Inserción del Número: El usuario ingresa un número adicional y la posición en la que desea insertarlo. El número se inserta en la posición indicada, y el vector se ajusta moviendo los números posteriores una posición hacia la derecha. Verificación de Posición: Si la posición ingresada es válida (entre 1 y 9), se realiza la inserción. De lo contrario, se muestra un mensaje de error indicando que la posición no es válida. Mostrar Vector Actualizado: El vector actualizado se muestra con el nuevo número insertado.
 
+Este algoritmo en PSeInt tiene como propósito verificar si un número ingresado por el usuario es positivo, negativo o igual a cero. A continuación te explico los pasos:
+
+Definición de variables: Se define una variable numero de tipo real (para permitir números decimales).
+
+Entrada de datos: El programa solicita al usuario que ingrese un número y lo almacena en la variable numero.
+
+Condicionales:
+
+Si el número es mayor que 0, el algoritmo imprime "El número es positivo."
+Si el número es menor que 0, imprime "El número es negativo."
+Si el número es igual a 0, imprime "El número es cero."
+El uso de la estructura Si...Entonces...Sino...FinSi permite evaluar las condiciones de manera secuencial, asegurando que se cubren todas las posibles situaciones.
